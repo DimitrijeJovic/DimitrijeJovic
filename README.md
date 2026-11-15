@@ -29,7 +29,7 @@ I enjoy building structured applications, designing backend systems, working wit
   `Browser ⇄ Nginx (Reverse Proxy & TLS) ⇄ Gunicorn (WSGI) ⇄ Flask Application (6 Modular Blueprints) ⇄ MySQL 8.0`
 - **Database Engineering:** Normalized relational schema comprising **23 operational tables** across 4 functional domains, featuring immutable snapshot execution tables for tamper-evident exam history.
 - **Application Security:** Cryptographic submission verification via **HMAC-SHA256 (MAC)**, password hashing with **bcrypt**, session protection, role enforcement decorators, and parameterized SQL queries eliminating SQL injection.
-- **Quality Assurance:** Comprehensive test suite of **88 unit and integration tests** validating authentication, role access, and end-to-end exam state machines.
+- **Quality Assurance:** Rigorous automated QA methodology documenting **574 historical checks** (547 in-process Flask WSGI integration tests across 26 functional suites and 27 real-browser E2E tests) validated through fault injection.
 
 👉 **Explore the full architectural specifications, schema diagrams, and security documentation:**  
 [**View the AIspit Repository →**](https://github.com/DimitrijeJovic/aispit-academic-platform)
