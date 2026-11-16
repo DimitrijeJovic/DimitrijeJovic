@@ -13,7 +13,7 @@ I enjoy building structured applications, designing backend systems, working wit
 
 ---
 
-## 🌟 Featured Project
+## Featured Project
 
 ### [AIspit — Academic Examination & Assignment Management Platform](https://github.com/DimitrijeJovic/aispit-academic-platform)
 
@@ -31,8 +31,8 @@ I enjoy building structured applications, designing backend systems, working wit
 - **Application Security:** Cryptographic submission verification via **HMAC-SHA256 (MAC)**, password hashing with **bcrypt**, session protection, role enforcement decorators, and parameterized SQL queries eliminating SQL injection.
 - **Quality Assurance:** Rigorous automated QA methodology documenting **574 historical checks** (547 in-process Flask WSGI integration tests across 26 functional suites and 27 real-browser E2E tests) validated through fault injection.
 
-👉 **Explore the full architectural specifications, schema diagrams, and security documentation:**  
-[**View the AIspit Repository →**](https://github.com/DimitrijeJovic/aispit-academic-platform)
+Detailed architectural specifications, schema diagrams, and security documentation are available in the repository:  
+[**View the AIspit Repository**](https://github.com/DimitrijeJovic/aispit-academic-platform)
 
 ---
 
@@ -51,7 +51,7 @@ I enjoy building structured applications, designing backend systems, working wit
 ## Other Projects
 
 - **[WatchSphere](https://github.com/DimitrijeJovic/WatchSphere)** — Full-stack media catalogue and personal watch tracker for anime, movies, and series built with ASP.NET Core (.NET 10), Vue 3, and MySQL. Features multi-provider search integration (TMDB, TVmaze, Kitsu), progress tracking, and background sync.
-- **[Flask Medical Management System](https://github.com/DimitrijeJovic/flask-medical-management-system)** — Healthcare management web application built with Flask, MySQL, Bootstrap, and role-based authentication for clinical scheduling and patient records.
+- **[Flask Medical Management System](https://github.com/DimitrijeJovic/flask-medical-management-system)** — Early web project exploring full-stack patterns with Python, Flask, MySQL, and Bootstrap. Features multi-role access for clinical appointments and patient health records, accompanied by automated regression testing.
 - **[Millionaire City HTML5](https://github.com/DimitrijeJovic/millionaire-city-html5)** — Independent clean-room HTML5 reimplementation of the classic city-building simulation game using TypeScript and Phaser 3.
 
 ---
