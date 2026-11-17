@@ -1,62 +1,48 @@
 # Dimitrije Jović
 
-**Computer Science Student & Software Developer**  
-Focused on backend engineering, relational database design, application security, and full-stack web systems.
+Junior software developer in Niš, Serbia, working mainly with **C# / .NET**, **Python** and **SQL**. I build database-backed web applications and pay particular attention to access control, data consistency and automated tests.
 
----
+## Education
 
-## About Me
+- **Master's studies, Information Technologies and Systems** (in progress), Academy of Applied Technical and Preschool Studies Niš
+- **Undergraduate applied studies, Modern Computer Technologies** (completed 2026), Academy of Applied Technical and Preschool Studies Niš, Niš Department
 
-I am a Computer Science student focused on software engineering, web application development, database systems, and practical problem-solving.
+## Focus
 
-I enjoy building structured applications, designing backend systems, working with relational databases, and exploring modern development workflows. My work emphasizes architectural clarity, data integrity, secure authentication, and thorough technical documentation.
+- Backend development with ASP.NET Core and Flask, REST APIs, and relational database design in MySQL
+- Software testing: unit and integration tests (xUnit, Python unittest), tests against a real MySQL server, and checking that a test fails when the rule it covers is broken
 
----
+## Selected projects
 
-## Featured Project
+**[AIspit](https://github.com/DimitrijeJovic/aispit-academic-platform)** · Python, Flask, MySQL · bachelor's thesis  
+Online exam and assignment-submission platform, designed and developed for my bachelor's thesis. Four user roles (administrator, professor, assistant, student), a Flask application split into four role-based modules, and a normalised 23-table MySQL schema. Deployed and publicly accessible, but not currently in active use. The repository contains the documentation, database design and screenshots; the source code is not published.
 
-### [AIspit — Academic Examination & Assignment Management Platform](https://github.com/DimitrijeJovic/aispit-academic-platform)
+**[WatchSphere](https://github.com/DimitrijeJovic/WatchSphere)** · C#, ASP.NET Core, Entity Framework Core, MySQL, Vue 3  
+Media catalogue and personal watch tracker. Layered ASP.NET Core Web API with EF Core migrations on MySQL, JWT authentication, BCrypt password hashing, role-restricted admin endpoints, rate-limited sign-in and Swagger documentation. Imports titles from TMDB, TVmaze and Kitsu through one provider interface. 21 xUnit tests cover authentication, authorization, validation, rate limiting and library rules. The frontend is Vue 3 with JavaScript.
 
-**AIspit** is a full-stack academic examination and coursework submission platform engineered to manage university-level examinations, assignment workflows, and integrity verification.
+**[Clinic Management System](https://github.com/DimitrijeJovic/flask-medical-management-system)** · Python, Flask, MySQL · academic project  
+An exam project and one of my first independent applications, later revised with AI-assisted security fixes and tests. Role- and relationship-based access to records for administrators, doctors and nurses. 39 unit and security tests and 10 integration tests against a real MySQL 8 server. Never deployed and never used with real patient data.
 
-- **Technology Stack:** Python, Flask, MySQL 8 (InnoDB), Jinja2, HTML5, CSS3, JavaScript
-- **Role-Based Access Control:** Four distinct personas with strict boundary enforcement:
-  - **Administrator:** Complete platform governance, academic program scoping, curriculum management, and user lifecycle administration.
-  - **Professor:** Exam authoring, modular question bank management, test scheduling, code activation, and grade finalization.
-  - **Assistant:** Grading support, candidate submission review, and evaluation notes.
-  - **Student:** Time-bounded online examination interface with client-side anti-cheat detection, plus assignment submission workflows.
-- **System Architecture:** 5-tier production deployment request pipeline:  
-  `Browser ⇄ Nginx (Reverse Proxy & TLS) ⇄ Gunicorn (WSGI) ⇄ Flask Application (6 Modular Blueprints) ⇄ MySQL 8.0`
-- **Database Engineering:** Normalized relational schema comprising **23 operational tables** across 4 functional domains, featuring immutable snapshot execution tables for tamper-evident exam history.
-- **Application Security:** Cryptographic submission verification via **HMAC-SHA256 (MAC)**, password hashing with **bcrypt**, session protection, role enforcement decorators, and parameterized SQL queries eliminating SQL injection.
-- **Quality Assurance:** Rigorous automated QA methodology documenting **574 historical checks** (547 in-process Flask WSGI integration tests across 26 functional suites and 27 real-browser E2E tests) validated through fault injection.
+**[Millionaire City HTML5](https://github.com/DimitrijeJovic/millionaire-city-html5)** · TypeScript, Phaser 3, Python  
+Educational fan-made restoration of a discontinued Flash game, started from a community rebuild: reverse engineering of the original game files, bug fixing, a reimplementation in TypeScript and Phaser 3, Python tools for converting the original SWF files, and 131 automated tests. The original game and its assets belong to their rights holders.
 
-Detailed architectural specifications, schema diagrams, and security documentation are available in the repository:  
-[**View the AIspit Repository**](https://github.com/DimitrijeJovic/aispit-academic-platform)
+## Technologies
 
----
+| Area | Technologies |
+|---|---|
+| Languages | C#, Python, SQL, JavaScript, TypeScript |
+| Backend | ASP.NET Core Web API, Entity Framework Core, Flask, REST, JWT |
+| Databases | MySQL, relational schema design, transactions |
+| Frontend | Vue 3, HTML, CSS, Jinja2, Bootstrap |
+| Testing | xUnit, Python unittest, Node.js test runner, integration testing with MySQL |
+| Tools | Git, GitHub, Swagger / OpenAPI |
 
-## Technical Skills
+Also studied during coursework: C and Java.
 
-| Domain | Technologies & Tools |
-| :--- | :--- |
-| **Backend & Languages** | Python, Flask, C, Java, JavaScript |
-| **Databases & Storage** | MySQL 8.0, Relational Schema Design, SQL Prepared Statements, Query Optimization |
-| **Frontend Development** | HTML5, CSS3, JavaScript, Jinja2 Templates, Responsive UI |
-| **Architecture & Security** | RESTful Architecture, Role-Based Access Control (RBAC), HMAC-SHA256, bcrypt, Session Security |
-| **Tools & Platforms** | Git, GitHub, Linux / Nginx Deployment, WSGI (Gunicorn), VS Code |
+## How I use AI tools
 
----
+I use AI coding assistants (Claude Code) in development. I set the requirements and the data model, make the key decisions, and verify the result with tests that I first check can fail. Each repository's README states where AI assistance was used.
 
-## Other Projects
+## Contact
 
-- **[WatchSphere](https://github.com/DimitrijeJovic/WatchSphere)** — Full-stack media catalogue and personal watch tracker for anime, movies, and series built with ASP.NET Core (.NET 10), Vue 3, and MySQL. Features multi-provider search integration (TMDB, TVmaze, Kitsu), progress tracking, and background sync.
-- **[Flask Medical Management System](https://github.com/DimitrijeJovic/flask-medical-management-system)** — Early web project exploring full-stack patterns with Python, Flask, MySQL, and Bootstrap. Features multi-role access for clinical appointments and patient health records, accompanied by automated regression testing.
-- **[Millionaire City HTML5](https://github.com/DimitrijeJovic/millionaire-city-html5)** — Independent clean-room HTML5 reimplementation of the classic city-building simulation game using TypeScript and Phaser 3.
-
----
-
-## GitHub Highlights
-
-- **Flagship Project:** [aispit-academic-platform](https://github.com/DimitrijeJovic/aispit-academic-platform)
-- **Primary Focus:** Backend Development, Relational Databases & Application Architecture
+[LinkedIn](https://www.linkedin.com/in/dimitrije-jovic-7b7a8a410/)
