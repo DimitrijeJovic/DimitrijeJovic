@@ -1,7 +1,6 @@
 # Dimitrije Jović
 
-Junior software engineer based in Niš, Serbia, focused on building reliable web applications and database-driven systems. I value clean architecture, secure access control, data consistency and thorough testing.
-
+Junior software engineer based in Niš, Serbia, focused on building reliable web applications and database-driven systems. I value clear, layered architecture, secure access control, data consistency and thorough testing.
 ## Education
 
 - **Master's studies, Information Technologies and Systems** (in progress), Academy of Applied Technical and Preschool Studies Niš
