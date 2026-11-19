@@ -1,6 +1,6 @@
 # Dimitrije Jović
 
-Junior software developer in Niš, Serbia, working mainly with **C# / .NET**, **Python** and **SQL**. I build database-backed web applications and pay particular attention to access control, data consistency and automated tests.
+Junior software engineer in Niš, Serbia, working mainly with C# / .NET, Python and SQL. I build database-backed web applications and pay particular attention to access control, data consistency and automated tests.
 
 ## Education
 
